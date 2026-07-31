@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Uttarakhand Live</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- Simple Header -->
+    <header class="simple-header">
+        <div class="header-container">
+            <span class="logo">Uttarakhand Live</span>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="simple-nav" id="nav-menu">
+                <a href="index.html" class="">HOME</a>
+                <a href="blog.html" class="active">BLOG</a>
+                <a href="contact.html" class="">CONTACT US</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <h1 class="headline-serif blog-header">Latest Articles</h1>
+        
+        <div class="blog-list">
+            <article class="blog-list-item">
+                <a href="gippy-grewal-new-blockbuster.html">
+                    <img src="https://images.unsplash.com/photo-1626084478149-cd80c98ec8ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sachin Dahar">
+                </a>
+                <div class="content">
+                    <div class="tag">MUSIC</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="gippy-grewal-new-blockbuster.html">Record Numbers Expected for Char Dham Yatra 2026</a></h2>
+                    <p class="hero-excerpt">Discover how Sachin Dahar is shaping his musical identity through original Punjabi songs, creative releases, and a growing presence in the independent music industry.</p>
+                </div>
+            </article>
+
+            <article class="blog-list-item">
+                <a href="blog-2.html">
+                    <img src="https://images.unsplash.com/photo-1590596328766-3d77d704177d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Concert">
+                </a>
+                <div class="content">
+                    <div class="tag">MUSIC</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-2.html">Heavy Snowfall Transforms Auli into a Winter Wonderland</a></h2>
+                    <p class="hero-excerpt">Tourists are flocking to Auli as the region receives its first major snowfall of the season, covering the meadows in pristine white.</p>
+                </div>
+            </article>
+
+            <article class="blog-list-item">
+                <a href="blog-3.html">
+                    <img src="https://images.unsplash.com/photo-1595859702220-42fcf17b9c97?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Movies">
+                </a>
+                <div class="content">
+                    <div class="tag">MOVIES</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-3.html">New Highway Projects to Connect Remote Villages in Kumaon</a></h2>
+                    <p class="hero-excerpt">The newly proposed four-lane highway aims to cut travel time by half and boost the local economy in the Kumaon region.</p>
+                </div>
+            </article>
+            
+            <article class="blog-list-item">
+                <a href="blog-4.html">
+                    <img src="https://images.unsplash.com/photo-1614088921877-3e1da1ee5f79?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Audio">
+                </a>
+                <div class="content">
+                    <div class="tag">INDUSTRY</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-4.html">Tourism Boom in Nainital Causes Massive Weekend Traffic Snarls</a></h2>
+                    <p class="hero-excerpt">The fusion of traditional dhol beats with modern hip-hop has put Punjabi artists on the global map like never before.</p>
+                </div>
+            </article>
+
+            <article class="blog-list-item">
+                <a href="blog-5.html">
+                    <img src="https://images.unsplash.com/photo-1520624021575-d142b781ce73?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Stars">
+                </a>
+                <div class="content">
+                    <div class="tag">EXCLUSIVE</div>
+                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-5.html">State Government Announces New Subsidy for Apple Farmers</a></h2>
+                    <p class="hero-excerpt">We sat down with the industry's most promising newcomers to discuss their journey, struggles, and massive success in Pollywood.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+        <!-- Simple Footer -->
+    <footer class="simple-footer">
+        <div class="footer-top">
+            <span class="footer-logo">Uttarakhand Live</span>
+            <nav class="footer-nav">
+                <a href="index.html">HOME</a>
+                <a href="blog.html">BLOG</a>
+                <a href="contact.html">CONTACT US</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        if(hamburger) {
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('show-nav');
+            });
+        }
+    </script>
+</body>
+</html>
