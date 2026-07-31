@@ -350,3 +350,51 @@ a:hover {
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     display: inline-block;
 }
+
+/* Hamburger & Mobile Nav */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    padding: 10px;
+}
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+    .hamburger { display: flex; }
+    .simple-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid var(--border-color);
+        padding: 10px 0;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+    }
+    .simple-nav.active {
+        display: flex;
+    }
+    .simple-nav a {
+        padding: 12px 20px;
+        text-align: center;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .simple-nav a:last-child {
+        border-bottom: none;
+    }
+    .article-title {
+        font-size: 2rem;
+    }
+    .contact-hero h1 {
+        font-size: 2.2rem;
+    }
+}

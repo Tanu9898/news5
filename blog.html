@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latest News - Uttarakhand Live</title>
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
     <header class="simple-header">
@@ -70,8 +70,20 @@
             <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
         </div>
     </footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        if(hamburger && navMenu) {
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+            });
+        }
+    });
+</script>
 </body>
 </html>
+
 
 
 
