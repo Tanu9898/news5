@@ -7,28 +7,21 @@
     <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
-    <div class="top-bar">
-        <div class="container">
-            <span>Friday, July 31, 2026</span>
-            <span>Breaking: Heavy Snowfall Expected in Kedarnath This Weekend</span>
-        </div>
-    </div>
-
-    <header class="main-header">
-        <div class="container">
-            <a href="index.html" class="logo">Uttarakhand Live</a>
+    <header class="simple-header">
+        <div class="header-container">
+            <span class="logo">Uttarakhand Live</span>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="simple-nav" id="nav-menu">
+                <a href="index.html">HOME</a>
+                <a href="blog.html" class="active">LATEST NEWS</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
         </div>
     </header>
-
-    <nav class="nav-bar">
-        <div class="container">
-            <div class="nav-menu">
-                <a href="index.html">Home</a>
-                <a href="blog.html" class="active">Latest News</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
 
     <main class="container">
         <div class="blog-list">
@@ -72,8 +65,11 @@
         </div>
     </main>
     
-    <footer class="main-footer">
-        <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
+    <footer class="simple-footer" style="background: #111; color: #fff; text-align: center; padding: 40px 0; margin-top: 50px;">
+        <div class="container">
+            <p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 15px; font-family: 'Merriweather', serif;">Uttarakhand Live</p>
+            <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

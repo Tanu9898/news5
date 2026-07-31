@@ -7,28 +7,21 @@
     <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
-    <div class="top-bar">
-        <div class="container">
-            <span>Friday, July 31, 2026</span>
-            <span>Breaking: Heavy Snowfall Expected in Kedarnath This Weekend</span>
-        </div>
-    </div>
-
-    <header class="main-header">
-        <div class="container">
-            <a href="index.html" class="logo">Uttarakhand Live</a>
+    <header class="simple-header">
+        <div class="header-container">
+            <span class="logo">Uttarakhand Live</span>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="simple-nav" id="nav-menu">
+                <a href="index.html" class="active">HOME</a>
+                <a href="blog.html">LATEST NEWS</a>
+                <a href="contact.html">CONTACT</a>
+            </nav>
         </div>
     </header>
-
-    <nav class="nav-bar">
-        <div class="container">
-            <div class="nav-menu">
-                <a href="index.html" class="active">Home</a>
-                <a href="blog.html">Latest News</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </div>
-    </nav>
 
     <main class="container">
         <div class="news-layout">
@@ -37,18 +30,22 @@
                 <h3 style="border-bottom: 2px solid #000; padding-bottom: 5px; margin-bottom: 15px; font-family: 'Merriweather', serif; font-size: 1.1rem;">LATEST UPDATES</h3>
                 
                 <article class="sidebar-item">
+                    <img src="https://picsum.photos/400/250?random=21" alt="Weather" class="img-fluid" style="margin-bottom: 5px;">
                     <span class="news-category-label">WEATHER</span>
                     <h2 class="headline headline-small"><a href="#">IMD Issues Red Alert for Heavy Rainfall in Pithoragarh</a></h2>
                 </article>
                 <article class="sidebar-item">
+                    <img src="https://picsum.photos/400/250?random=22" alt="Politics" class="img-fluid" style="margin-bottom: 5px;">
                     <span class="news-category-label">POLITICS</span>
                     <h2 class="headline headline-small"><a href="#">Chief Minister Announces New Subsidy for Apple Farmers</a></h2>
                 </article>
                 <article class="sidebar-item">
+                    <img src="https://picsum.photos/400/250?random=23" alt="Development" class="img-fluid" style="margin-bottom: 5px;">
                     <span class="news-category-label">DEVELOPMENT</span>
                     <h2 class="headline headline-small"><a href="#">New Highway Project Approved to Connect Remote Villages in Kumaon</a></h2>
                 </article>
                 <article class="sidebar-item">
+                    <img src="https://picsum.photos/400/250?random=24" alt="Sports" class="img-fluid" style="margin-bottom: 5px;">
                     <span class="news-category-label">SPORTS</span>
                     <h2 class="headline headline-small"><a href="#">Local Athlete Wins Gold at National Track Championships</a></h2>
                 </article>
@@ -90,8 +87,11 @@
         </div>
     </main>
     
-    <footer class="main-footer">
-        <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
+    <footer class="simple-footer" style="background: #111; color: #fff; text-align: center; padding: 40px 0; margin-top: 50px;">
+        <div class="container">
+            <p style="font-size: 1.5rem; font-weight: bold; margin-bottom: 15px; font-family: 'Merriweather', serif;">Uttarakhand Live</p>
+            <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
