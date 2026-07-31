@@ -3,112 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - Uttarakhand Live</title>
+    <title>Stories - Uttarakhand Live</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <!-- Simple Header -->
-    <header class="simple-header">
-        <div class="header-container">
-            <span class="logo">Uttarakhand Live</span>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">UK<span>LIVE</span></a>
+            <div class="nav-links">
+                <a href="index.html">Discover</a>
+                <a href="blog.html" class="active">Stories</a>
+                <a href="contact.html">Connect</a>
             </div>
-            <nav class="simple-nav" id="nav-menu">
-                <a href="index.html" class="">HOME</a>
-                <a href="blog.html" class="active">BLOG</a>
-                <a href="contact.html" class="">CONTACT US</a>
-            </nav>
         </div>
-    </header>
+    </nav>
 
-    <!-- Main Content -->
     <main class="container">
-        <h1 class="headline-serif blog-header">Latest Articles</h1>
+        <h2 class="section-title">Latest Stories</h2>
         
-        <div class="blog-list">
-            <article class="blog-list-item">
-                <a href="gippy-grewal-new-blockbuster.html">
-                    <img src="https://picsum.photos/600/400?random=7" alt="Sachin Dahar">
-                </a>
-                <div class="content" style="padding: 1.5rem; flex: 1;">
-                    <div class="tag">MUSIC</div>
-                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="gippy-grewal-new-blockbuster.html">Record Numbers Expected for Char Dham Yatra 2026</a></h2>
-                    <p class="hero-excerpt">Discover how Sachin Dahar is shaping his musical identity through original Punjabi songs, creative releases, and a growing presence in the independent music industry.</p>
+        <div class="editorial-list">
+            <!-- Article 1 -->
+            <article class="editorial-item">
+                <div class="editorial-img-wrapper">
+                    <img src="https://picsum.photos/800/600?random=5" alt="Story 1">
+                </div>
+                <div class="editorial-info">
+                    <span class="bento-tag">Agriculture</span>
+                    <h2>State Government Announces New Subsidy for Apple Farmers in Higher Altitudes</h2>
+                    <p>In a major relief to horticulturists, the state has launched a sweeping new scheme designed to boost high-altitude apple production and protect crops from changing weather patterns.</p>
+                    <a href="#" class="read-more">Read the full story</a>
                 </div>
             </article>
 
-            <article class="blog-list-item">
-                <a href="blog-2.html">
-                    <img src="https://picsum.photos/600/400?random=8" alt="Concert">
-                </a>
-                <div class="content" style="padding: 1.5rem; flex: 1;">
-                    <div class="tag">MUSIC</div>
-                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-2.html">Heavy Snowfall Transforms Auli into a Winter Wonderland</a></h2>
-                    <p class="hero-excerpt">Tourists are flocking to Auli as the region receives its first major snowfall of the season, covering the meadows in pristine white.</p>
+            <!-- Article 2 -->
+            <article class="editorial-item">
+                <div class="editorial-img-wrapper">
+                    <img src="https://picsum.photos/800/600?random=6" alt="Story 2">
                 </div>
-            </article>
-
-            <article class="blog-list-item">
-                <a href="blog-3.html">
-                    <img src="https://picsum.photos/600/400?random=9" alt="Movies">
-                </a>
-                <div class="content" style="padding: 1.5rem; flex: 1;">
-                    <div class="tag">MOVIES</div>
-                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-3.html">New Highway Projects to Connect Remote Villages in Kumaon</a></h2>
-                    <p class="hero-excerpt">The newly proposed four-lane highway aims to cut travel time by half and boost the local economy in the Kumaon region.</p>
+                <div class="editorial-info">
+                    <span class="bento-tag">Culture</span>
+                    <h2>The Revival of Traditional Pahari Art: Meet the Young Artists Leading the Charge</h2>
+                    <p>From ancient Aipan designs to traditional wood carving, a new generation of artists is breathing life back into the cultural heritage of the Himalayas, fusing it with modern aesthetics.</p>
+                    <a href="#" class="read-more">Read the full story</a>
                 </div>
             </article>
             
-            <article class="blog-list-item">
-                <a href="blog-4.html">
-                    <img src="https://picsum.photos/600/400?random=10" alt="Audio">
-                </a>
-                <div class="content" style="padding: 1.5rem; flex: 1;">
-                    <div class="tag">INDUSTRY</div>
-                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-4.html">Tourism Boom in Nainital Causes Massive Weekend Traffic Snarls</a></h2>
-                    <p class="hero-excerpt">The fusion of traditional dhol beats with modern hip-hop has put Punjabi artists on the global map like never before.</p>
+            <!-- Article 3 -->
+            <article class="editorial-item">
+                <div class="editorial-img-wrapper">
+                    <img src="https://picsum.photos/800/600?random=7" alt="Story 3">
                 </div>
-            </article>
-
-            <article class="blog-list-item">
-                <a href="blog-5.html">
-                    <img src="https://picsum.photos/600/400?random=11" alt="Stars">
-                </a>
-                <div class="content" style="padding: 1.5rem; flex: 1;">
-                    <div class="tag">EXCLUSIVE</div>
-                    <h2 class="headline-serif" style="font-size: 1.8rem; margin-bottom: 1rem;"><a href="blog-5.html">State Government Announces New Subsidy for Apple Farmers</a></h2>
-                    <p class="hero-excerpt">We sat down with the industry's most promising newcomers to discuss their journey, struggles, and massive success in Pollywood.</p>
+                <div class="editorial-info">
+                    <span class="bento-tag">Infrastructure</span>
+                    <h2>Rishikesh-Karnaprayag Railway Line Reaches Major Milestone</h2>
+                    <p>The ambitious mountain railway project has successfully excavated its longest tunnel to date, marking a significant step towards bringing train connectivity to the deeper mountains.</p>
+                    <a href="#" class="read-more">Read the full story</a>
                 </div>
             </article>
         </div>
     </main>
-
-        <!-- Simple Footer -->
-    <footer class="simple-footer">
-        <div class="footer-top">
-            <span class="footer-logo">Uttarakhand Live</span>
-            <nav class="footer-nav">
-                <a href="index.html">HOME</a>
-                <a href="blog.html">BLOG</a>
-                <a href="contact.html">CONTACT US</a>
-            </nav>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Uttarakhand Live. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script>
-        const hamburger = document.getElementById('hamburger');
-        const navMenu = document.getElementById('nav-menu');
-        if(hamburger) {
-            hamburger.addEventListener('click', () => {
-                navMenu.classList.toggle('show-nav');
-            });
-        }
-    </script>
 </body>
 </html>
