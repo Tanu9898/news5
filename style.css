@@ -98,6 +98,21 @@ a:hover {
 }
 
 /* Articles */
+.main-story {
+    position: relative;
+    transition: background-color 0.2s ease;
+    padding: 10px;
+    border-radius: 4px;
+}
+.main-story:hover {
+    background-color: #f9f9f9;
+}
+.main-story a::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10;
+}
 .news-category-label {
     color: var(--accent-red);
     font-weight: 700;
@@ -140,6 +155,17 @@ a:hover {
 .sidebar-item {
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 15px;
+    position: relative;
+    transition: background-color 0.2s ease;
+}
+.sidebar-item:hover {
+    background-color: #f9f9f9;
+}
+.sidebar-item a::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10;
 }
 .sidebar-item:last-child {
     border-bottom: none;
@@ -159,6 +185,17 @@ a:hover {
     gap: 20px;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 30px;
+    position: relative;
+    transition: background-color 0.2s ease;
+}
+.blog-list-item:hover {
+    background-color: #f9f9f9;
+}
+.blog-list-item a::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 10;
 }
 .blog-list-item img {
     width: 100%;
@@ -167,11 +204,13 @@ a:hover {
 }
 
 /* Footer */
-.main-footer {
-    background: #111;
-    color: #fff;
+.simple-footer {
+    border-top: 1px solid var(--border-color);
+    background-color: #fff;
+    padding: 30px 0;
     text-align: center;
-    padding: 40px 0;
+    color: var(--secondary-text);
+    font-size: 0.9rem;
     margin-top: 50px;
 }
 
