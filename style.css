@@ -37,56 +37,43 @@ a:hover {
     padding: 0 15px;
 }
 
-/* Header & Nav */
-.top-bar {
-    background: #f8f9fa;
+/* Simple Header */
+.simple-header {
     border-bottom: 1px solid var(--border-color);
-    padding: 5px 0;
-    font-size: 0.8rem;
-    color: var(--secondary-text);
-    text-transform: uppercase;
-    font-weight: 500;
-}
-.top-bar .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-header {
-    text-align: center;
-    padding: 30px 0;
-}
-.logo {
-    font-family: 'Merriweather', serif;
-    font-size: 3rem;
-    font-weight: 900;
-    color: #000;
-    letter-spacing: -1px;
-    text-transform: uppercase;
-}
-
-.nav-bar {
-    border-top: 1px solid #000;
-    border-bottom: 3px solid #000;
-    background: #fff;
+    background-color: #fff;
     position: sticky;
     top: 0;
     z-index: 100;
 }
-.nav-menu {
+.header-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1.2rem 15px;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav-menu a {
-    display: block;
-    padding: 12px 10px;
-    font-size: 0.95rem;
-    font-weight: 700;
-    text-transform: uppercase;
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 900;
     color: #000;
+    text-decoration: none;
+    letter-spacing: -0.5px;
 }
-.nav-menu a:hover, .nav-menu a.active {
+.simple-nav {
+    display: flex;
+    gap: 2rem;
+}
+.simple-nav a {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+.simple-nav a:hover, .simple-nav a.active {
     color: var(--accent-red);
 }
 
